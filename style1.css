@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: linear-gradient(120deg,#2980b9,#ADD8E6);
+    height: 100vh;
+    overflow: hidden;
+}
+.center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    right:50%;
+    transform: translate(-50%, -50%);
+    width:400px;
+   background-color: white;
+    border-radius: 10px;
+}
+    
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+.center form{
+    padding: 0 20px;
+}
+form .txt{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+.txt input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+   outline: none;
+   background: none;
+  
+}
+.txt label{
+    position: absolute;
+    top:50%;
+    left:5px;
+    
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+.txt span::before{
+    content: '';
+    position: absolute;
+    
+    top:40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #2691d9;
+}
+.txt input:focus ~label,
+.txt input:valid ~label{
+    top:-5px;
+    
+}
+.pass{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+}
+input[type="submit"]
+{
+    width:100%;
+    height:55px;
+    border: 1px solid black;
+     background: #2691d9;
+     color: white;
+     cursor: pointer;
+     font-weight: 700;
+     outline: none;
+     border-radius: 25px;
+}
+.pass1{
+    margin: 10px 0;
+    text-align :center;
+}

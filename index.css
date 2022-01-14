@@ -1,0 +1,45 @@
+html,body{
+
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+background: white;
+}
+
+.content{
+    min-height: 600px;
+}
+
+.banner_image {
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("https://wallpaperaccess.com/full/2483962.jpg") no-repeat center;
+    background-size: 400x;
+   
+}
+
+.inner-banner-image{
+    padding-top: 12%;
+    width:80%;
+    margin:auto;
+}
+
+.banner_content {
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    overflow:hidden;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+ 
+.element{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+}
+
